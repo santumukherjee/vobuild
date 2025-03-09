@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vobuild/static/css/main.c20f5b7a.css",
+    "main.js": "/vobuild/static/js/main.59dbd9bf.js",
+    "static/js/453.65145164.chunk.js": "/vobuild/static/js/453.65145164.chunk.js",
+    "index.html": "/vobuild/index.html",
+    "main.c20f5b7a.css.map": "/vobuild/static/css/main.c20f5b7a.css.map",
+    "main.59dbd9bf.js.map": "/vobuild/static/js/main.59dbd9bf.js.map",
+    "453.65145164.chunk.js.map": "/vobuild/static/js/453.65145164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c20f5b7a.css",
+    "static/js/main.59dbd9bf.js"
+  ]
+}

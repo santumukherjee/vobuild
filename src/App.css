@@ -1,0 +1,147 @@
+.question-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.question-button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.question-button.answered {
+  background-color: lightgreen; /* Highlight answered questions */
+}
+
+.question-button.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.option-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.option-button.selected {
+  background-color: lightblue;
+}
+
+.next-button, .prev-button, .submit-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.next-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.prev-button {
+  background-color: #ffa500;
+  color: white;
+}
+
+.submit-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.next-button:disabled, .submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.question-navigation {
+  display: flex;
+  justify-content: flex-end; /* Moves it to the right */
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.question-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 10px; /* Adds spacing before buttons */
+}
+
+.question-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 buttons per row */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.grid-container button {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.grid-container button.active {
+  background-color: #4caf50;
+  color: white;
+}
+.check-answer-button {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.question-navigation {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Creates 10 columns */
+  gap: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.grid-container button {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #ddd;
+  border: 1px solid #999;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.grid-container button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+
